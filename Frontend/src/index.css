@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Optional: Added for better mobile/desktop rendering and font 
+   Ensure 'Inter' is the system default or loaded globally if required.
+*/
+body {
+  font-family: 'Inter', sans-serif; 
+  margin: 0;
+  padding: 0;
+  /* This ensures the entire page background works */
+  min-height: 100vh;
+  /* Tailwind classes applied to the AppLayout component handle the background */
+}
